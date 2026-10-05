@@ -2,10 +2,10 @@
 
 namespace MaximeRainville\SilverstripeReact\Tests\Components;
 
+use SilverStripe\Model\ModelData;
 use MaximeRainville\SilverstripeReact\BootstrapComponent;
-use SilverStripe\View\ViewableData;
 
-class GenericComponent extends ViewableData
+class GenericComponent extends ModelData
 {
     use BootstrapComponent;
 
