@@ -18,10 +18,10 @@ trait BootstrapComponent
         'AttributesHTML' => 'HTMLFragment'
     ];
 
-    public function forTemplate()
+    public function forTemplate(): string
     {
         $return = $this->renderWith($this->getTemplates());
-        return $return;
+        return (string) $return;
     }
 
     public function getTemplates(): array
